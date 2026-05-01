@@ -14,7 +14,7 @@ namespace Dsw2026Ej8.Methods
             }
             return quantity;
         }
-        public string CrearResumenVenta(long productCode, string productDescription, int quantity, decimal unitPrice)
+        public static string CrearResumenVenta(long productCode, string productDescription, int quantity, decimal unitPrice)
         {
             quantity = ValidateQuantity(quantity);
             var myAnonimousObject = new { Code = productCode, Description = productDescription, Quantity = quantity, Total = quantity * unitPrice };

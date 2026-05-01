@@ -11,10 +11,6 @@ namespace Dsw2026Ej8.Models
         private int _quantity;
         private double _total;
 
-        public Product()
-        {
-
-        }
 
         public Product(long code, string productDescription, int quantity, double total)
         {

@@ -8,7 +8,7 @@ namespace Dsw2026Ej8.Methods
     internal class Problema5
     {
 
-        public decimal ObtenerImporteFinal(Sale sale)
+        public static decimal ObtenerImporteFinal(Sale sale)
         {
             decimal aux = sale.CalculateTotal(sale.GetPrice());
             Console.WriteLine($"Esto es lo que se va: {aux}");

@@ -7,7 +7,7 @@ namespace Dsw2026Ej8.Methods
     internal class Problema4
     {
 
-        public double CalcularPromedio(int? nota1 = null, int? nota2 = null, int? nota3 = null)
+        public static double CalcularPromedio(int? nota1 = null, int? nota2 = null, int? nota3 = null)
         {
             int? Verificar(int? aux)
             {

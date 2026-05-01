@@ -5,9 +5,9 @@ using Dsw2026Ej8.Models;
 
 namespace Dsw2026Ej8.Methods
 {
-    internal class problema6
+    internal class Problema6
     {
-        public string NormalizarCodigoProducto(string code)
+        public static string NormalizarCodigoProducto(string code)
         {
             return code.ToProductCode();
         }

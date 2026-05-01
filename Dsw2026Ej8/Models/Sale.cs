@@ -7,6 +7,12 @@ namespace Dsw2026Ej8.Models
     internal class Sale
     {
         private decimal _price;
+
+        public Sale(decimal price)
+        {
+            _price = price;
+        }
+
         public virtual decimal CalculateTotal(decimal price)
         {
             return price;
