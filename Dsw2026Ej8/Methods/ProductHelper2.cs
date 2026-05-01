@@ -13,13 +13,6 @@ namespace Dsw2026Ej8.Methods
             Console.WriteLine(price);
         }
 
-        public static int ValidateQuantity(int quantity)
-        {
-            if (quantity <= 0)
-            {
-                quantity = 0;
-            }
-            return quantity;
-        }
+        
     }
 }
